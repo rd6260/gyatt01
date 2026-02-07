@@ -1,16 +1,31 @@
-# gyatt_osc
-
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Clone the Repository
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/rd6260/gyatt01.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Move into the project directory:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd gyatt01
+```
+
+### Install Dependencies
+```bash
+flutter pub get
+```
+### Run the App
+```bash
+flutter run
+```
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- Flutter SDK
+- Dart
+- Git
+- Android Studio / VS Code
