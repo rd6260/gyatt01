@@ -3,6 +3,7 @@ import 'package:gyatt_osc/main/home_page.dart';
 import 'package:gyatt_osc/tutorial/buttons_controls_page.dart';
 import 'package:gyatt_osc/tutorial/container_page.dart';
 import 'package:gyatt_osc/tutorial/row_column_page.dart';
+import 'package:gyatt_osc/tutorial/scratchpad_screen.dart';
 import 'package:gyatt_osc/tutorial/text_display_page.dart';
 import 'package:gyatt_osc/tutorial/textfield_widgets_page.dart';
 
@@ -55,6 +56,7 @@ class TutorialGateScreen extends StatelessWidget {
 
             navButton(context, 'Row & Column Widgets', const RowColumnPage()),
 
+            navButton(context, 'Scratchpad', const ScratchpadScreen()),
             navButton(context, 'Demo App', const MovieScreen()),
           ],
         ),
